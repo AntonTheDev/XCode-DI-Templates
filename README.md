@@ -1,7 +1,6 @@
 # XCode-Flight-iOS Templates
-=============
 
-This is an architectural Xcode Template which will be the starting point for an iOS.
+This is an architectural Swinject Infused Xcode Template which will be the starting point for an iOS app.
 
 ### Setup
 
