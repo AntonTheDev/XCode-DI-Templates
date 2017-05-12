@@ -1,9 +1,9 @@
-#XCode-Flight-iOS Templates
+# XCode-Flight-iOS Templates
 =============
 
 This is an architectural Xcode Template which will be the starting point for an iOS.
 
-##Setup
+### Setup
 
 1. Clone the XCode-Flight-iOS Repository into your developer folder
 2. In your project root run the following commands
@@ -12,7 +12,7 @@ This is an architectural Xcode Template which will be the starting point for an 
 	sudo sh install.sh
 	```
 
-##Instructions
+### Instructions
 
 Once the template is installed, XCode-Flight will show up in your default templates when creating a new xcode project and prepares a full podfile for configuration
 
