@@ -1,20 +1,19 @@
-#XCode-Flight-iOS Templates
-=============
+# XCode-DI-Templates
 
-This is an architectural Xcode Template which will be the starting point for an iOS.
+This is an architectural Swinject Infused Xcode Template which will be the starting point for an iOS app.
 
-##Setup
+### Setup
 
-1. Clone the XCode-Flight-iOS Repository into your developer folder
+1. Clone the XCode-DI-Templates Repository into your developer folder
 2. In your project root run the following commands
 
 	```
 	sudo sh install.sh
 	```
 
-##Instructions
+### Instructions
 
-Once the template is installed, XCode-Flight will show up in your default templates when creating a new xcode project and prepares a full podfile for configuration
+Once the template is installed, XCode-DI will show up in your default templates when creating a new xcode project and prepares a full podfile for configuration
 
 After creating the project, close it, and navigate into the root directory, and run the following command:
 
