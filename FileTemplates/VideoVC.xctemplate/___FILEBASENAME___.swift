@@ -35,7 +35,7 @@ class ___FILEBASENAME___ : BaseViewController {
     
     var playerItem : AVPlayerItem?
     
-    override func configuredData() {
+    override func configureData() {
         guard let urlPath = Bundle.main.path(forResource: ___FILEBASENAME___Config.videoFileName,
                                              ofType:___FILEBASENAME___Config.videoFileType) else {
                                                 return
