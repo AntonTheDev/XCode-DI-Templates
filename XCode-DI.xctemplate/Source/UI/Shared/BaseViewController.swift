@@ -30,7 +30,7 @@ class BaseViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupInterface()
-        configuredData()
+        configureData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,7 +39,7 @@ class BaseViewController : UIViewController {
         layoutInterface()
     }
     
-    func configuredData() {
+    func configureData() {
         /* Override in subclass and add all the layout logic */
     }
     

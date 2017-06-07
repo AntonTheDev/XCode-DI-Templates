@@ -31,7 +31,7 @@ class Services {
     
     func registerViewControllers() {
         
-        viewControllerContainer.register(HomeViewController.self) { _ in HomeViewController(container: self.viewControllerContainer) }
+        viewControllerContainer.register(BaseViewController.self) { _ in BaseViewController(container: self.viewControllerContainer) }
             .initCompleted { (r, controller) in
 
         }

@@ -38,7 +38,21 @@
 					<array>
 						<string>$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework</string>
 						<string>$(SRCROOT)/Carthage/Build/iOS/Swinject.framework</string>
+						<string>$(SRCROOT)/Carthage/Build/iOS/JSONModelKit.framework</string>
+						<string>$(SRCROOT)/Carthage/Build/iOS/FlightAnimator.framework</string>
+						<string>$(SRCROOT)/Carthage/Build/iOS/FlightLayout.framework</string>
 					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Model Generation</string>
+					<key>Class</key>
+					<string>ShellScript</string>
+					<key>ShellPath</key>
+					<string>/bin/sh</string>
+					<key>ShellScript</key>
+					<string>SCRIPT_LOC=$(find $SRCROOT/.. -name modelgen-swift.py | head -n 1)
+python $SCRIPT_LOC -o $PROJECT_DIR</string>
 				</dict>
 			</array>
 			<key>Frameworks</key>
@@ -101,7 +115,6 @@
 		<string>Extensions/NSMutableAttributedString+PSD.swift</string>
 		<string>Extensions/UIColor+Hex.swift</string>
 		<string>ViewModels/ViewModelDefinitions.swift</string>
-		<string>Extensions/UIView+Alignment.swift</string>
 		<string>Extensions/UIView+Geometry.swift</string>
 		<string>UI/BaseViewController.swift</string>
 		<string>UI/BaseCollectionViewCell.swift</string>
@@ -214,18 +227,6 @@
 			<string>Source/Extensions/UIView+Geometry.swift</string>
 			<key>SortOrder</key>
 			<integer>7</integer>
-		</dict>
-		<key>Extensions/UIView+Alignment.swift</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Extensions</string>
-				<string>UIKit</string>
-			</array>
-			<key>Path</key>
-			<string>Source/Extensions/UIView+Alignment.swift</string>
-			<key>SortOrder</key>
-			<integer>8</integer>
 		</dict>
 		<key>Extensions/DateFormatter+Extras.swift</key>
 		<dict>
