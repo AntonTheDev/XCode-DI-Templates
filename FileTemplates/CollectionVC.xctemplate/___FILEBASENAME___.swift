@@ -35,7 +35,7 @@ struct ___FILEBASENAME___Config {
 
 class ___FILEBASENAME___ : BaseViewController {
     
-    override func configuredData() {
+    override func configureData() {
         
     }
     
