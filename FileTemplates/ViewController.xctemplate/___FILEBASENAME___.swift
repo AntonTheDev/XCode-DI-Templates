@@ -21,7 +21,7 @@ import UIKit
 
 class ___FILEBASENAME___ : BaseViewController {
     
-    override func configuredData() {
+    override func configureData() {
         /* all the layout logic */
     }
     
