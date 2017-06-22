@@ -37,6 +37,7 @@
 					<key>InputFiles</key>
 					<array>
 						<string>$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework</string>
+						<string>$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework</string>
 						<string>$(SRCROOT)/Carthage/Build/iOS/Swinject.framework</string>
 						<string>$(SRCROOT)/Carthage/Build/iOS/JSONModelKit.framework</string>
 						<string>$(SRCROOT)/Carthage/Build/iOS/FlightAnimator.framework</string>
@@ -106,6 +107,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 		<string>../Cartfile</string>
 		<string>../Carthage/Build/iOS/Swinject.framework</string>
 		<string>../Carthage/Build/iOS/Alamofire.framework</string>
+		<string>../Carthage/Build/iOS/AlamofireImage.framework</string>
 		<string>../Carthage/Build/iOS/FlightLayout.framework</string>
 		<string>../Carthage/Build/iOS/FlightAnimator.framework</string>
 		<string>../Carthage/Build/iOS/JSONModelKit.framework</string>
@@ -174,6 +176,15 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<string>Frameworks</string>
 			<key>Path</key>
 			<string>Source/Frameworks/JSONModelKit.framework</string>
+			<key>SortOrder</key>
+			<integer>5</integer>
+		</dict>
+		<key>../Carthage/Build/iOS/AlamofireImage.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Source/Frameworks/AlamofireImage.framework</string>
 			<key>SortOrder</key>
 			<integer>5</integer>
 		</dict>

@@ -25,6 +25,7 @@ Once all frameworks should be downloaded and built into your project via carthag
 
 Libraries included:
 * Alamofire
+* AlamofireImage
 * Swinject
 * JSONModelKit
 * FlightAnimator
