@@ -29,7 +29,7 @@ Libraries included:
 * Swinject
 * JSONModelKit
 * FlightAnimator
-* FlifgtLayout
+* FlightLayout
 
 Templates Included:
 .....
