@@ -13,7 +13,7 @@ This is an architectural Swinject Infused Xcode Template which will be the start
 
 ### Instructions
 
-Once the template is installed, XCode-DI will show up in your default templates when creating a new xcode project and prepares a full podfile for configuration
+Once the template is installed, XCode-DI will show up in your default templates when creating a new xcode project and prepares a full cartfile for configuration
 
 After creating the project, close it, and navigate into the root directory, and run the following command:
 
@@ -22,3 +22,13 @@ carthage update
 ```
 
 Once all frameworks should be downloaded and built into your project via carthage.
+
+Libraries included:
+* Alamofire
+* Swinject
+* JSONModelKit
+* FlightAnimator
+* FlifgtLayout
+
+Templates Included:
+.....
