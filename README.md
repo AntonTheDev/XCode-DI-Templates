@@ -1,4 +1,9 @@
-# XCode-DI-Templates
+[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20tvos-lightgrey.svg)](https://github.com/AntonTheDev/JSONModelKit/)
+[![Join the chat at https://gitter.im/AntonTheDev/XCode-DI-Templates](https://badges.gitter.im/AntonTheDev/XCode-DI-Templates.svg)](https://gitter.im/AntonTheDev/XCode-DI-Templates?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![License](https://img.shields.io/badge/license-MIT-343434.svg)](https://github.com/AntonTheDev/XCode-DI-Templates/)
+
+
+# Xcode Dependency Injected Templates
 
 This is an architectural Swinject Infused Xcode Template which will be the starting point for an iOS app.
 
@@ -13,9 +18,9 @@ This is an architectural Swinject Infused Xcode Template which will be the start
 
 ### Instructions
 
-Once the template is installed, XCode-DI will show up in your default templates when creating a new xcode project and prepares a full cartfile for configuration
+Once the template is installed, XCode-DI will show up in your default templates when creating a new Xcode project.
 
-After creating the project, close it, and navigate into the root directory, and run the following command:
+The project contains a pre-configured cartfile will the all the imports and script build phases configured. After creating the project, and navigate into the root directory, and run the following command:
 
 ```
 carthage update
@@ -31,5 +36,55 @@ Libraries included:
 * FlightAnimator
 * FlightLayout
 
-Templates Included:
-.....
+File Templates Included:
+
+* **ViewController**
+	* Extends BaseViewController included in the DI Template
+	* Pre-Configured method overrides
+
+
+* **View**
+	* Extends BaseView included in the DI Template
+	* Pre-Configured method overrides
+
+
+* **Collection ViewController**
+	* Extends BaseViewController included in the DI Template
+	* Bootstraps CollectionView Delegate/DataSource methods
+
+
+* **CollectionViewCell**
+	* Extends BaseCollectionViewCell included in the DI Template
+	* Pre-Configured method overrides
+
+
+* **Service**
+	* Service Class
+	* Test Service Class
+	* Pre-Configured with abstract protocol
+
+
+* **Data Service**
+	* Service Class
+	* Test Service Class
+	* Networked Service
+	* Pre-Configured with abstract protocols
+
+
+* **Network Service**
+	* Networking Service
+	* Pre configured with Alamofire out of the box
+
+
+* **Transitioning Container ViewController**
+	* Container ViewController
+	* Pre-Configured for UIViewControllerAnimatedTransitioning
+
+
+* **Transitioning Animator**
+	* Pre-Configured UIViewControllerAnimatedTransitioning instance
+
+
+* **Video ViewController**
+	* Extends BaseViewController included in the DI Template
+	* Pre-Configured to play single video file
