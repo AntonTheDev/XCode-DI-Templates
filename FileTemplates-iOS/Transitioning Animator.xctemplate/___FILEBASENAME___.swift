@@ -7,33 +7,49 @@
 //
 
 import Foundation
-import UIKit
 
-/*
-    Add the following in the registerViewControllers() method of the
-    Services class.
+struct ___FILEBASENAME___Config {
+    static let toContext           = UITransitionContextViewControllerKey.to
+    static let fromContext         = UITransitionContextViewControllerKey.from
+    static let animationTiming     = 0.32
+}
 
-        viewControllerContainer.register(___FILEBASENAME___.self) { _ in ___FILEBASENAME___(container: self.viewControllerContainer) }
-            .initCompleted { (r, controller) in
-                // Rersolve Services as needed
+class ___FILEBASENAME___ : NSObject, UIViewControllerAnimatedTransitioning {
+
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+
+        guard let fromView = transitionContext.viewController(forKey: ___FILEBASENAME___Config.fromContext)?.view,
+              let toView = transitionContext.viewController(forKey: ___FILEBASENAME___Config.toContext)?.view  else {
+
+            transitionContext.completeTransition(true)
+            return
         }
-*/
 
-class ___FILEBASENAME___ : BaseViewController {
-    
-    override func configureData() {
-        /* all the layout logic */
+        toView.alpha = 0.0
+
+        let containerView = transitionContext.containerView
+        containerView.addSubview(toView)
+        containerView.addSubview(fromView)
+
+        UIView.animate(withDuration: ___FILEBASENAME___Config.animationTiming,
+                       delay: 0.0,
+                       options: UIViewAnimationOptions.curveEaseOut,
+                       animations: { () -> Void in
+
+                        fromView.alpha = 0.0
+                        toView.alpha = 1.0
+
+        }, completion: { (complete) in
+
+            fromView.alpha = 0.0
+            toView.alpha = 1.0
+            fromView.removeFromSuperview()
+            transitionContext.completeTransition(true)
+
+        })
     }
-    
-    override func setupInterface() {
-        /* add all the subviews */
-    }
-    
-    override func styleInterface() {
-        /* set fonts, color, text */
-    }
-    
-    override func layoutInterface() {
-        /* Add all the layout logic */
+
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+        return ___FILEBASENAME___Config.animationTiming
     }
 }

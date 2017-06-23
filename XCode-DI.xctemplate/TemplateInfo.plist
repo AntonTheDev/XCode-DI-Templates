@@ -14,7 +14,7 @@
 	<integer>0</integer>
 	<key>Ancestors</key>
 	<array>
-		<string>com.hugeinc.dt.unit.cocoaTouchApplicationBase</string>
+		<string>com.iagd.dt.unit.cocoaTouchApplicationBase</string>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -120,6 +120,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 		<string>Extensions/UIView+Geometry.swift</string>
 		<string>UI/BaseViewController.swift</string>
 		<string>UI/BaseCollectionViewCell.swift</string>
+		<string>UI/BaseView.swift</string>
 		<string>Model</string>
 		<string>Services/ServicesDefinitions.swift</string>
 	</array>
@@ -268,6 +269,19 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<string>Source/UI/Shared/BaseViewController.swift</string>
 			<key>SortOrder</key>
 			<integer>11</integer>
+		</dict>
+		<key>UI/BaseView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>UI</string>
+				<string>Shared</string>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Source/UI/Shared/Views/BaseView.swift</string>
+			<key>SortOrder</key>
+			<integer>12</integer>
 		</dict>
 		<key>UI/BaseCollectionViewCell.swift</key>
 		<dict>

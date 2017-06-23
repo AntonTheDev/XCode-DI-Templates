@@ -10,14 +10,16 @@ PROJECT_TEMPLATE_SOURCE_DIR="."
 PROJECT_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
 
 file_template_array=(
-"CollectionView Cell"
-"Collection ViewController"
-"Video ViewController"
-"Transitioning Animator"
-"View Controller"
-"Network Service"
-"Data Service"
-"Service")
+"CollectionView Cell.xctemplate"
+"Collection ViewController.xctemplate"
+"Video ViewController.xctemplate"
+"Transitioning Animator.xctemplate"
+"View Controller.xctemplate"
+"View.xctemplate"
+"Network Service.xctemplate"
+"Data Service.xctemplate"
+"Service.xctemplate"
+"Transitioning Container VC.xctemplate")
 
 project_template_array=("XCode-DI.xctemplate" "XCode-DI-Base.xctemplate")
 
@@ -45,7 +47,7 @@ do
 
 rm -f -r "$IOS_FILE_TEMPLATE_DIR/$file_template"
 
-if cp -R "$IOS_FILE_TEMPLATE_SOURCE_DIR/$file_template.xctemplate" "$IOS_FILE_TEMPLATE_DIR/$file_template.xctemplate"
+if cp -R "$IOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$IOS_FILE_TEMPLATE_DIR/$file_template"
 then echo "    - $file_template Template Installed"
 else echo "    - $file_template Installation Failed"
 fi
@@ -61,7 +63,7 @@ do
 
 rm -f -r "$TVOS_FILE_TEMPLATE_DIR/$file_template"
 
-if cp -R "$TVOS_FILE_TEMPLATE_SOURCE_DIR/$file_template.xctemplate" "$TVOS_FILE_TEMPLATE_DIR/$file_template.xctemplate"
+if cp -R "$TVOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$TVOS_FILE_TEMPLATE_DIR/$file_template"
 then echo "    - $file_template Template Installed"
 else echo "    - $file_template Installation Failed"
 fi

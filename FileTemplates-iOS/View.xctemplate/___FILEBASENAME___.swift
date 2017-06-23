@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAME___: BaseCollectionViewCell {
+class ___FILEBASENAME___: BaseView {
 
     override func configureData() {
         // configure the data to be displayed
@@ -22,7 +22,7 @@ class ___FILEBASENAME___: BaseCollectionViewCell {
     override func styleInterface() {
         // configure view style properties if needed
     }
-    
+
     override func layoutInterface() {
         // layout all the subviews in this method
     }

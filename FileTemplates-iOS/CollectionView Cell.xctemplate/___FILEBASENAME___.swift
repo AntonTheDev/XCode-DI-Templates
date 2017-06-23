@@ -10,20 +10,20 @@ import Foundation
 import UIKit
 
 class ___FILEBASENAME___: BaseCollectionViewCell {
-    
+
     override func configureData() {
-        // confire the data to be displayed
+        // configure the data to be displayed
     }
-    
+
     override func setupInterface() {
-        // configure the view hiearchy
+        // configure the view hierarchy
     }
-    
+
     override func styleInterface() {
         // configure view style properties if needed
     }
-    
+
     override func layoutInterface() {
-        // layout all the subvies in this method
+        // layout all the subviews in this method
     }
 }
