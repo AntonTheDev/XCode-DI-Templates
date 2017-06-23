@@ -19,7 +19,6 @@ import UIKit
         }
 */
 
-
 @objc protocol ___FILEBASENAME___Delegate : class {
     @objc func containerViewController(_ containerViewController : ___FILEBASENAME___,
                                  didSelectViewController : UIViewController)
