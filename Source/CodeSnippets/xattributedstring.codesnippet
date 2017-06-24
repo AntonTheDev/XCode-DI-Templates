@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xattributedstring</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>internal func attributed(&lt;# stringName #&gt; : String?) -&gt; NSAttributedString? {
+        return NSMutableAttributedString(copyString: &lt;# stringName #&gt;,
+                                         font:&lt;# UIFont #&gt;,
+                                         tracking :&lt;# CGFloat #&gt;,
+                                         leading: &lt;# CGFloat #&gt;,
+                                         textAlignment:&lt;# NSTextAlignment #&gt;,
+                                         color:&lt;# UIColor #&gt;,
+                                         bold : &lt;# Bool #&gt;)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>xattributedstring</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Attributed String Wrapper Definition</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XDI | xattributedstring</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

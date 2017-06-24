@@ -1,13 +1,20 @@
 #!/bin/sh
 
-IOS_FILE_TEMPLATE_SOURCE_DIR="./FileTemplates-iOS"
+IOS_FILE_TEMPLATE_SOURCE_DIR="./Source/FileTemplates-iOS"
 IOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/Source"
 
-TVOS_FILE_TEMPLATE_SOURCE_DIR="./FileTemplates-tvOS"
+TVOS_FILE_TEMPLATE_SOURCE_DIR="./Source/FileTemplates-tvOS"
 TVOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Templates/File Templates/Source"
 
-PROJECT_TEMPLATE_SOURCE_DIR="."
+PROJECT_TEMPLATE_SOURCE_DIR="./Source/ProjectTemplates"
 PROJECT_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
+
+XCODE_SNIPPETS_SOURCE_DIR="./Source/CodeSnippets"
+XCODE_SNIPPETS_TARGET_DIR="$HOME/Library/Developer/Xcode/UserData/CodeSnippets"
+
+project_template_array=(
+"XCode-DI.xctemplate"
+"XCode-DI-Base.xctemplate")
 
 file_template_array=(
 "CollectionView Cell.xctemplate"
@@ -21,7 +28,12 @@ file_template_array=(
 "Service.xctemplate"
 "Transitioning Container VC.xctemplate")
 
-project_template_array=("XCode-DI.xctemplate" "XCode-DI-Base.xctemplate")
+code_snippet_array=(
+"xlabel.codesnippet"
+"xbutton.codesnippet"
+"ximageview.codesnippet"
+"xview.codesnippet"
+"xattributedstring.codesnippet")
 
 echo ""
 echo "INSTALLING Project Templates: "
@@ -66,6 +78,23 @@ rm -f -r "$TVOS_FILE_TEMPLATE_DIR/$file_template"
 if cp -R "$TVOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$TVOS_FILE_TEMPLATE_DIR/$file_template"
 then echo "    - $file_template Template Installed"
 else echo "    - $file_template Installation Failed"
+fi
+
+done
+
+echo ""
+
+
+echo "INSTALLING Xcode Snippets: "
+
+for code_template in "${code_snippet_array[@]}"
+do
+
+rm -f "$XCODE_SNIPPETS_TARGET_DIR/$code_template"
+
+if cp "$XCODE_SNIPPETS_SOURCE_DIR/$code_template" "$XCODE_SNIPPETS_TARGET_DIR/$code_template"
+then echo "    - $code_template Snippet Installed"
+else echo "    - $code_template Snippet Failed"
 fi
 
 done
