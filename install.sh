@@ -17,16 +17,17 @@ project_template_array=(
 "XCode-DI-Base.xctemplate")
 
 file_template_array=(
-"CollectionView Cell.xctemplate"
-"Collection ViewController.xctemplate"
-"Video ViewController.xctemplate"
-"Transitioning Animator.xctemplate"
 "View Controller.xctemplate"
 "View.xctemplate"
-"Network Service.xctemplate"
-"Data Service.xctemplate"
+"Collection ViewController.xctemplate"
+"CollectionView Cell.xctemplate"
+"Video ViewController.xctemplate"
 "Service.xctemplate"
-"Transitioning Container VC.xctemplate")
+"Data Service.xctemplate"
+"Network Service.xctemplate"
+"Transitioning Container VC.xctemplate"
+"Transitioning Context.xctemplate"
+"Transitioning Animator.xctemplate")
 
 code_snippet_array=(
 "xlabel.codesnippet"
