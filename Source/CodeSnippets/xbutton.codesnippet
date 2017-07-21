@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xbutton</string>
+	<string>zbutton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -17,13 +17,13 @@
         return image
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>xbutton</string>
+	<string>zbutton</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>lazy UIButton Definition</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>XDI | xbutton</string>
+	<string>XDI | zbutton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

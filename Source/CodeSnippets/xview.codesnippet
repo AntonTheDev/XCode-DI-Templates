@@ -15,13 +15,13 @@
         return view
         }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>xview</string>
+	<string>zview</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>lazy UIView Definition</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>XDI | xview</string>
+	<string>XDI | zview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

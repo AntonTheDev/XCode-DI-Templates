@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xattributedstring</string>
+	<string>zattributedstring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -19,13 +19,13 @@
                                          bold : &lt;# Bool #&gt;)
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>xattributedstring</string>
+	<string>zattributedstring</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Attributed String Wrapper Definition</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>XDI | xattributedstring</string>
+	<string>XDI | zattributedstring</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

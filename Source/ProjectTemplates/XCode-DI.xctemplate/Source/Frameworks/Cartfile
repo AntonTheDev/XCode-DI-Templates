@@ -1,5 +1,6 @@
-github "Swinject/Swinject" "2.0.0"
-github "Alamofire/Alamofire" ~> 4.4
-github "AntonTheDev/FlightAnimator" ~> 0.9.7
-github "AntonTheDev/FlightLayout" ~> 0.7.1
-github "AntonTheDev/JSONModelKit" ~> 0.8.0
+github "Swinject/Swinject" "2.1.0"
+github "Alamofire/Alamofire" >= 4.4.0
+github "Alamofire/AlamofireImage" ~> 3.1
+github "AntonTheDev/FlightAnimator" ~> 0.9.8
+github "AntonTheDev/FlightLayout" "master"
+github "AntonTheDev/JSONModelKit" "master"
