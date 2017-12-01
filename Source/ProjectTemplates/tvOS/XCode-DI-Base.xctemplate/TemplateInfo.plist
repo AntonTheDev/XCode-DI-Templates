@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.applicationBase</string>
+		<string>com.apple.dt.unit.tvosBase</string>
+		<string>com.apple.dt.unit.languageChoice</string>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SDK</key>
+		<string>appletvos</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>TVOS_DEPLOYMENT_TARGET</key>
+			<string>latest_appletvos</string>
+		</dict>
+	</dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.iagd.dt.unit.tvosApplication</string>
+	<key>Description</key>
+	<string>This template provides a starting point for an application.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>ViewController.h:comments</string>
+						<string>ViewController.h:imports:importCocoa</string>
+						<string>ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>ViewController.m:comments</string>
+						<string>ViewController.m:imports:importHeader:ViewController.h</string>
+						<string>ViewController.m:extension</string>
+						<string>ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array/>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.tvosApplicationTarget</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>3</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>App Icon &amp; Top Shelf Image</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:tvos</string>
+		<string>Info.plist:UIInterfaceStyle</string>
+		<string>Info.plist:UIRequiredDeviceCapabilities</string>
+		<string>Info.plist:UIRequiredDeviceCapabilities:base</string>
+		<string>Assets.xcassets</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist:tvos</key>
+		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;
+</string>
+		<key>Info.plist:UIInterfaceStyle</key>
+		<string>&lt;key&gt;UIUserInterfaceStyle&lt;/key&gt;
+&lt;string&gt;Automatic&lt;/string&gt;
+</string>
+		<key>Info.plist:UIRequiredDeviceCapabilities:base</key>
+		<string>&lt;string&gt;arm64&lt;/string&gt;</string>
+		<key>Info.plist:UIRequiredDeviceCapabilities</key>
+		<dict>
+			<key>Beginning</key>
+			<string>&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+</string>
+			<key>End</key>
+			<string>&lt;/array&gt;</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>Assets.xcassets</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+			<key>SortOrder</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

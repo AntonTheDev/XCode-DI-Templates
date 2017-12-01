@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:install.sh">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:Source"
+      name = "Source">
+      <Group
+         location = "group:CodeSnippets"
+         name = "CodeSnippets">
+         <FileRef
+            location = "group:xattributedstring.codesnippet">
+         </FileRef>
+         <FileRef
+            location = "group:xbutton.codesnippet">
+         </FileRef>
+         <FileRef
+            location = "group:ximageview.codesnippet">
+         </FileRef>
+         <FileRef
+            location = "group:xlabel.codesnippet">
+         </FileRef>
+         <FileRef
+            location = "group:xview.codesnippet">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:FileTemplates-iOS"
+         name = "FileTemplates-iOS">
+         <Group
+            location = "group:Collection ViewController.xctemplate"
+            name = "Collection ViewController.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CollectionView Cell.xctemplate"
+            name = "CollectionView Cell.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Data Service.xctemplate"
+            name = "Data Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Test___FILEBASENAME___.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Network Service.xctemplate"
+            name = "Network Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Service.xctemplate"
+            name = "Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Test___FILEBASENAME___.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Animator.xctemplate"
+            name = "Transitioning Animator.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Container VC.xctemplate"
+            name = "Transitioning Container VC.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Context.xctemplate"
+            name = "Transitioning Context.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Video ViewController.xctemplate"
+            name = "Video ViewController.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View Controller.xctemplate"
+            name = "View Controller.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View.xctemplate"
+            name = "View.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:FileTemplates-tvOS"
+         name = "FileTemplates-tvOS">
+         <Group
+            location = "group:Collection ViewController.xctemplate"
+            name = "Collection ViewController.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CollectionView Cell.xctemplate"
+            name = "CollectionView Cell.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Data Service.xctemplate"
+            name = "Data Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Test___FILEBASENAME___.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Network Service.xctemplate"
+            name = "Network Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Service.xctemplate"
+            name = "Service.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Test___FILEBASENAME___.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Animator.xctemplate"
+            name = "Transitioning Animator.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Container VC.xctemplate"
+            name = "Transitioning Container VC.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transitioning Context.xctemplate"
+            name = "Transitioning Context.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Video ViewController.xctemplate"
+            name = "Video ViewController.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View Controller.xctemplate"
+            name = "View Controller.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View.xctemplate"
+            name = "View.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:ProjectTemplates"
+         name = "ProjectTemplates">
+         <Group
+            location = "group:iOS"
+            name = "iOS">
+            <Group
+               location = "group:XCode-DI-Base.xctemplate"
+               name = "XCode-DI-Base.xctemplate">
+               <Group
+                  location = "group:Images.xcassets"
+                  name = "Images.xcassets">
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:TemplateInfo.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:XCode-DI.xctemplate"
+               name = "XCode-DI.xctemplate">
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <Group
+                     location = "group:Application"
+                     name = "Application">
+                     <FileRef
+                        location = "group:AppDelegate.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Extensions"
+                     name = "Extensions">
+                     <FileRef
+                        location = "group:DateFormatter+Extras.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSMutableAttributedString+PSD.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIColor+Hex.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+Geometry.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Frameworks"
+                     name = "Frameworks">
+                     <FileRef
+                        location = "group:Cartfile">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Services"
+                     name = "Services">
+                     <FileRef
+                        location = "group:ServiceDefinitions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Services.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:UI"
+                     name = "UI">
+                     <Group
+                        location = "group:Shared"
+                        name = "Shared">
+                        <FileRef
+                           location = "group:BaseViewController.swift">
+                        </FileRef>
+                        <Group
+                           location = "group:Views"
+                           name = "Views">
+                           <FileRef
+                              location = "group:BaseCollectionViewCell.swift">
+                           </FileRef>
+                           <FileRef
+                              location = "group:BaseView.swift">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:ViewModels"
+                     name = "ViewModels">
+                     <FileRef
+                        location = "group:ViewModelDefinitions.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:TemplateIcon.png">
+               </FileRef>
+               <FileRef
+                  location = "group:TemplateIcon@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:TemplateInfo.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:tvOS"
+            name = "tvOS">
+            <Group
+               location = "group:XCode-DI-Base.xctemplate"
+               name = "XCode-DI-Base.xctemplate">
+               <Group
+                  location = "group:Images.xcassets"
+                  name = "Images.xcassets">
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:TemplateInfo.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:XCode-DI.xctemplate"
+               name = "XCode-DI.xctemplate">
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <Group
+                     location = "group:Application"
+                     name = "Application">
+                     <FileRef
+                        location = "group:AppDelegate.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Extensions"
+                     name = "Extensions">
+                     <FileRef
+                        location = "group:DateFormatter+Extras.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSMutableAttributedString+PSD.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIColor+Hex.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+Geometry.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Frameworks"
+                     name = "Frameworks">
+                     <FileRef
+                        location = "group:Cartfile">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Services"
+                     name = "Services">
+                     <FileRef
+                        location = "group:ServiceDefinitions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Services.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:UI"
+                     name = "UI">
+                     <Group
+                        location = "group:Shared"
+                        name = "Shared">
+                        <FileRef
+                           location = "group:BaseViewController.swift">
+                        </FileRef>
+                        <Group
+                           location = "group:Views"
+                           name = "Views">
+                           <FileRef
+                              location = "group:BaseCollectionViewCell.swift">
+                           </FileRef>
+                           <FileRef
+                              location = "group:BaseView.swift">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:ViewModels"
+                     name = "ViewModels">
+                     <FileRef
+                        location = "group:ViewModelDefinitions.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:TemplateIcon.png">
+               </FileRef>
+               <FileRef
+                  location = "group:TemplateIcon@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:TemplateInfo.plist">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
