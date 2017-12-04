@@ -29,12 +29,12 @@ carthage update
 Once all frameworks should be downloaded and built into your project via carthage.
 
 Libraries included:
-* Alamofire
-* AlamofireImage
-* Swinject
-* JSONModelKit
-* FlightAnimator
-* FlightLayout
+* Alamofire               (3.3.0)
+* AlamofireImage     (4.5.1)
+* Swinject                (2.1.1)
+* JSONModelKit      (1.0.0)
+* FlightAnimator      (0.9.9)
+* FlightLayout          (0.8.1)
 
 File Templates Included:
 

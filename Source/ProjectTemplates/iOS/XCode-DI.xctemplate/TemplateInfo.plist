@@ -80,6 +80,8 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 		<string>iphoneos</string>
 		<key>SharedSettings</key>
 		<dict>
+			<key>SWIFT_VERSION</key>
+			<string>4.0</string>
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>latest_iphoneos</string>
 			<key>CODE_SIGN_IDENTITY</key>
@@ -228,7 +230,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<key>Group</key>
 			<string>Model</string>
 			<key>Path</key>
-			<string>Source/Model/</string>
+			<string>Source/Model</string>
 			<key>SortOrder</key>
 			<integer>5</integer>
 		</dict>
