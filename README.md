@@ -1,40 +1,59 @@
-[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20tvos-lightgrey.svg)](https://github.com/AntonTheDev/JSONModelKit/)
+[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20tvos-lightgrey.svg)](https://github.com/AntonTheDev/XCode-DI-Templates/)
 [![Join the chat at https://gitter.im/AntonTheDev/XCode-DI-Templates](https://badges.gitter.im/AntonTheDev/XCode-DI-Templates.svg)](https://gitter.im/AntonTheDev/XCode-DI-Templates?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![License](https://img.shields.io/badge/license-MIT-343434.svg)](https://github.com/AntonTheDev/XCode-DI-Templates/)
 
 
 # Xcode Dependency Injected Templates
 
-This is an architectural Swinject Infused Xcode Template which will be the starting point for an iOS app.
+An architectural Swinject Infused Xcode Template to use as a starting point for an iOS and tvOS Apps.
 
 ### Setup
 
 1. Clone the XCode-DI-Templates Repository into your developer folder
-2. In your project root run the following commands
+2. Navigate into the cloned repository and run the following command to install the templates.
 
-	```
-	sudo sh install.sh
-	```
+```
+sudo sh install.sh
+```
 
 ### Instructions
 
-Once the template is installed, XCode-DI will show up in your default templates when creating a new Xcode project.
+Once the templates are installed, XCode-DI will show up in your default templates when creating a new Xcode project for iOS and tvOS.
 
-The project contains a pre-configured cartfile will the all the imports and script build phases configured. After creating the project, and navigate into the root directory, and run the following command:
+![alt tag](/Documentation/1-NewProjectIcon.png?raw=true)
+
+The project contains a pre-configured Cartfile with the all framework imports, build phase scripts, and standard project scaffolding configured.
+
+The scaffolding is as follows:
+
+![alt tag](/Documentation/2-Scaffolding.png?raw=true)
+
+
+The frameworks have already been added as part of the project, the only step needed to ensure they exist is to download the latest code and build the frameworks. perform the following commands accordingly.
 
 ```
-carthage update
+/* For iOS */
+
+carthage update --platform ios
+
+/* For tvOS */
+
+carthage update --platform tvos
 ```
 
-Once all frameworks should be downloaded and built into your project via carthage.
+Once all frameworks should be downloaded and built into your project via Carthage.
 
 Libraries included:
-* Alamofire               (3.3.0)
-* AlamofireImage     (4.5.1)
-* Swinject                (2.1.1)
-* JSONModelKit      (1.0.0)
-* FlightAnimator      (0.9.9)
-* FlightLayout          (0.8.1)
+* Alamofire (3.3.0)
+* AlamofireImage(4.5.1)
+* Swinject (2.1.1)
+* JSONModelKit (1.0.0)
+* FlightAnimator (0.9.9)
+* FlightLayout (0.8.1)
+
+
+
+
 
 File Templates Included:
 
