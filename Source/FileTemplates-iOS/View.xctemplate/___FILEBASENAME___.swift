@@ -11,10 +11,6 @@ import UIKit
 
 class ___FILEBASENAME___: BaseView {
 
-    override func configureData() {
-        // configure the data to be displayed
-    }
-
     override func setupInterface() {
         // configure the view hierarchy
     }
