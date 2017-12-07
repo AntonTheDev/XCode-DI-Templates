@@ -19,6 +19,13 @@ import Alamofire
         }.inObjectScope(.container)
 */
 
+enum NetworkQoS : String  {
+    case background         = ".background"
+    case utility            = ".utility"
+    case `default`          = ".default"
+    case userInitiated      = ".userInitiated"
+    case userInteractive    = ".userInteractive"
+}
 
 typealias ___FILEBASENAME___Response = (_ response : [String : AnyObject]?, _ error : Error?) -> ()
 

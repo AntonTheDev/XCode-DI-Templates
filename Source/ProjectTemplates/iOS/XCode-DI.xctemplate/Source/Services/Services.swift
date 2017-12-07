@@ -7,14 +7,6 @@
 import UIKit
 import Swinject
 
-enum NetworkQoS : String  {
-    case background         = ".background"
-    case utility            = ".utility"
-    case `default`          = ".default"
-    case userInitiated      = ".userInitiated"
-    case userInteractive    = ".userInteractive"
-}
-
 class Services {
     
     var dataServicesContainer = Container()
