@@ -26,7 +26,7 @@ Once the templates are installed, XCode-DI will show up in your default template
 <img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/1-NewProjectIcon.png?raw=true" width="600" height="430" />
 </p>
 
-### Bootstrap Frameworks
+## Bootstrap Frameworks
 
 The project contains a pre-configured Cartfile with the all framework imports, build phase scripts, and standard project scaffolding configured as reflected by the scaffolding:
 
@@ -62,7 +62,7 @@ carthage update --platform tvos
 ```
 
 
-### Service Architecture
+## Create Service
 
 If familiar with Swinject, this should really expedite development for you, otherwise please read the Swinject documentation [here](https://github.com/Swinject/Swinject) to familiarize yourself with this dependency injection framework.
 
@@ -198,8 +198,7 @@ class TestAccountService : AccountServiceType {
 }
 ```
 
-
-The class comes with the following base
+### Included Service Templates
 
 * **Service**
 	* Service Class
@@ -218,8 +217,7 @@ The class comes with the following base
 
 
 
-
-File Templates Included:
+## Other Included Templates
 
 * **ViewController**
 	* Extends BaseViewController included in the DI Template
