@@ -238,22 +238,6 @@ class TestAccountService : AccountServiceType {
 	* Extends BaseCollectionViewCell included in the DI Template
 	* Pre-Configured method overrides
 
-
-* **Service**
-	* Service Class
-	* Test Service Class
-	* Pre-Configured with abstract protocol
-
-* **Data Service**
-	* Service Class
-	* Test Service Class
-	* Networked Service
-	* Pre-Configured with abstract protocols
-
-* **Network Service**
-	* Networking Service
-	* Pre configured with Alamofire out of the box
-
 * **Transitioning Container ViewController**
 	* Container ViewController
 	* Pre-Configured for UIViewControllerAnimatedTransitioning
