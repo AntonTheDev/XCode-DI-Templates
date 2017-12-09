@@ -19,6 +19,10 @@ class Services {
     
     func registerServices() {
         
+        dataServicesContainer.register(NetworkingService.self, name: NetworkQoS.default.rawValue) { r in
+            let service = NetworkingService(name: NetworkQoS.default.rawValue, qos: .default)
+            return service
+            }.inObjectScope(.container)
     }
     
     func registerViewControllers() {

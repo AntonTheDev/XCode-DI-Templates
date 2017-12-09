@@ -1,10 +1,10 @@
 #!/bin/sh
 
 IOS_FILE_TEMPLATE_SOURCE_DIR="./Source/FileTemplates-iOS"
-IOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/Source"
+IOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates"
 
 TVOS_FILE_TEMPLATE_SOURCE_DIR="./Source/FileTemplates-tvOS"
-TVOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Templates/File Templates/Source"
+TVOS_FILE_TEMPLATE_DIR="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Xcode/Templates/File Templates"
 
 PROJECT_TEMPLATE_SOURCE_DIR_iOS="./Source/ProjectTemplates/iOS"
 PROJECT_TEMPLATE_DIR_iOS="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application"
@@ -22,11 +22,11 @@ project_template_array=(
 file_template_array=(
 "View Controller.xctemplate"
 "View.xctemplate"
-"Collection ViewController.xctemplate"
+"CollectionView Controller.xctemplate"
 "CollectionView Cell.xctemplate"
 "Video ViewController.xctemplate"
 "Service.xctemplate"
-"Data Service.xctemplate"
+"Networked Service.xctemplate"
 "Network Service.xctemplate"
 "Transitioning Container VC.xctemplate"
 "Transitioning Context.xctemplate"
@@ -75,9 +75,14 @@ echo "INSTALLING iOS File Templates: "
 for file_template in "${file_template_array[@]}"
 do
 
-rm -f -r "$IOS_FILE_TEMPLATE_DIR/$file_template"
+if [ -d "$IOS_FILE_TEMPLATE_DIR/XCode-DI" ]
+then
+rm -f -r "$IOS_FILE_TEMPLATE_DIR/XCode-DI/$file_template"
+else
+mkdir "$IOS_FILE_TEMPLATE_DIR/XCode-DI"
+fi
 
-if cp -R "$IOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$IOS_FILE_TEMPLATE_DIR/$file_template"
+if cp -R "$IOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$IOS_FILE_TEMPLATE_DIR/XCode-DI/$file_template"
 then echo "    - $file_template Template Installed"
 else echo "    - $file_template Installation Failed"
 fi
@@ -91,9 +96,14 @@ echo "INSTALLING TVOS File Templates: "
 for file_template in "${file_template_array[@]}"
 do
 
-rm -f -r "$TVOS_FILE_TEMPLATE_DIR/$file_template"
+if [ -d "$TVOS_FILE_TEMPLATE_DIR/XCode-DI" ]
+then
+rm -f -r "$TVOS_FILE_TEMPLATE_DIR/XCode-DI/$file_template"
+else
+mkdir "$TVOS_FILE_TEMPLATE_DIR/XCode-DI"
+fi
 
-if cp -R "$TVOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$TVOS_FILE_TEMPLATE_DIR/$file_template"
+if cp -R "$TVOS_FILE_TEMPLATE_SOURCE_DIR/$file_template" "$TVOS_FILE_TEMPLATE_DIR/XCode-DI/$file_template"
 then echo "    - $file_template Template Installed"
 else echo "    - $file_template Installation Failed"
 fi

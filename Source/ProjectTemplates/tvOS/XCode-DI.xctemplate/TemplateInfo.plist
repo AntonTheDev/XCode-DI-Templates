@@ -111,6 +111,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 	</dict>
 	<key>Nodes</key>
 	<array>
+		<string>Services/NetworkingService.swift</string>
 		<string>../Cartfile</string>
 		<string>../Carthage/Build/tvOS/Swinject.framework</string>
 		<string>../Carthage/Build/tvOS/Alamofire.framework</string>
@@ -320,6 +321,18 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<string>Source/Services/ServicesDefinitions.swift</string>
 			<key>SortOrder</key>
 			<integer>14</integer>
+		</dict>
+		<key>Services/NetworkingService.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Services</string>
+				<string>Networking</string>
+			</array>
+			<key>Path</key>
+			<string>Source/Services/Networking/NetworkingService.swift</string>
+			<key>SortOrder</key>
+			<integer>15</integer>
 		</dict>
 	</dict>
 </dict>

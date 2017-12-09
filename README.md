@@ -23,7 +23,7 @@ sudo sh install.sh
 Once the templates are installed, XCode-DI will show up in your default templates when creating a new Xcode project for iOS and tvOS.
 
 <p align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/1-NewProjectIcon.png?raw=true" width="600" height="430" />
+<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/1-NewProjectIcon.png?raw=true"/>
 </p>
 
 ## Bootstrap Frameworks
@@ -33,7 +33,7 @@ The project contains a pre-configured Cartfile with the all framework imports, b
 <table align="center">
   <tr>
     <td width="400" height="400" align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/2-Framework-Includes.png?raw=true" width="226" height="342" />
+<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/2-Framework-Includes.png?raw=true" />
     </td>
     <td width="400">
 
@@ -102,10 +102,10 @@ Now lets define a new **Service** from the templates, to see what it generates. 
 Click on File > New > File... and selected the Service Template.
 
 <p align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/3-New-Service.png?raw=true" width="600" height="430" />
+<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/3-New-Service.png?raw=true" />
 </p>
 
-Two new files will be generated, **AccountService.swift**, and **TestAccountService.swift**, one for production purposes, and one for test purposes. But First let's observe the **AccountService.swift** file below to see has been included within.
+**AccountService.swift** will be generated, with an implementation and **TestAccountService.swift**, one for production purposes, and one for test purposes. But First let's observe the **AccountService.swift** file below to see has been included within.
 
 ```swift
 import Foundation
@@ -136,6 +136,13 @@ protocol AccountServiceType : class {
 
 class AccountService : AccountServiceType {
 
+    /* Define FileType Methods for production */
+
+}
+
+class TestAccountService : AccountServiceType {
+
+    /* Define FileType Methods for testing */
 }
 ```
 

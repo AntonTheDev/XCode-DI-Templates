@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>XCode-DI Service w/ Test Implementation</string>
 	<key>SortOrder</key>
-	<string>0</string>
+	<string>5</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -21,6 +21,63 @@
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.appletvos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Default</key>
+			<string>NewService</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Summary</key>
+			<string>XCode-DI Service w/ Test Implementation</string>
+			<key>Name</key>
+			<string>Service Type:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Type</string>
+			<key>Description</key>
+			<string>Service Type</string>
+			<key>Identifier</key>
+			<string>serviceType</string>
+			<key>Name</key>
+			<string>Service Type Definition:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Test___VARIABLE_productName___</string>
+			<key>Description</key>
+			<string>The Test Service Implementation</string>
+			<key>Identifier</key>
+			<string>testServiceName</string>
+			<key>Name</key>
+			<string>Test Service Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 </dict>
 </plist>

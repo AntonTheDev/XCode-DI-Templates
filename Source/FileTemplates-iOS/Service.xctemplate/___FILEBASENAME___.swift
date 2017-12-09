@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -15,7 +15,7 @@ import UIKit
  *
  **/
 
-protocol ___FILEBASENAME___Type : class {
+protocol ___VARIABLE_moduleName___Type : class {
     
     // Define Methods Here
 }
@@ -24,15 +24,16 @@ protocol ___FILEBASENAME___Type : class {
     Add the following in the registerDataServices() method of the
     Services class.
  
-        dataServicesContainer.register(___FILEBASENAME___Type.self) { r in
+        dataServicesContainer.register(___VARIABLE_moduleName___Type.self) { r in
 
-            let service = ___FILEBASENAME___()
+            let service = ___VARIABLE_moduleName___()
             return service
 
         }.inObjectScope(.container)
 */
 
 
-class ___FILEBASENAME___ : ___FILEBASENAME___Type {
+class ___VARIABLE_moduleName___ : ___VARIABLE_moduleName___Type {
     
+    // Define ___VARIABLE_moduleName___Type Methods for prodution
 }

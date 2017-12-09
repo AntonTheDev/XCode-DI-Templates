@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>XCode-DI Transitioning Container View Controller</string>
 	<key>SortOrder</key>
-	<string>0</string>
+	<string>8</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.appletvos</string>

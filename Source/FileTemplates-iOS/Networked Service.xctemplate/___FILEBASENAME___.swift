@@ -15,7 +15,7 @@ import UIKit
  *
  **/
 
-protocol ___FILEBASENAME___Type : class {
+protocol ___VARIABLE_moduleName___Type : class {
     
     var networkingService : NetworkService? { get set }
     
@@ -26,9 +26,9 @@ protocol ___FILEBASENAME___Type : class {
     Add the following in the registerDataServices() method of the
     Services class.
  
-        dataServicesContainer.register(___FILEBASENAME___Type.self) { r in
+        dataServicesContainer.register(___VARIABLE_moduleName___Type.self) { r in
 
-            let service = ___FILEBASENAME___()
+            let service = ___VARIABLE_moduleName___()
             
             // Adjust the QoS as needed for this service
             
@@ -39,7 +39,7 @@ protocol ___FILEBASENAME___Type : class {
 */
 
 
-class ___FILEBASENAME___ : ___FILEBASENAME___Type {
+class ___VARIABLE_moduleName___ : ___VARIABLE_moduleName___Type {
     
     var networkingService : NetworkService?
 }

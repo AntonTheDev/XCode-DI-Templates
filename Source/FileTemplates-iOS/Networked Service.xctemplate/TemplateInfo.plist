@@ -5,17 +5,17 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>XCode-DI Service w/ Test Implementation</string>
+	<string>XCode-DI Networked Data Service /w Test Implementation</string>
 	<key>Summary</key>
-	<string>XCode-DI Service w/ Test Implementation</string>
+	<string>XCode-DI Networked Data Service /w Test Implementation</string>
 	<key>SortOrder</key>
-	<string>5</string>
+	<string>6</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>ServiceName</string>
+	<string>File</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Platforms</key>
@@ -32,7 +32,7 @@
 			<key>Identifier</key>
 			<string>moduleName</string>
 			<key>Summary</key>
-			<string>XCode-DI Service w/ Test Implementation</string>
+			<string>XCode-DI Service w/ Test Implementation, and injects NetworkingService</string>
 			<key>Name</key>
 			<string>Service Type:</string>
 			<key>NotPersisted</key>

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAME___ : ___FILEBASENAME___Type {
+class ___VARIABLE_moduleName___ : ___VARIABLE_moduleName___Type {
     
     var networkingService : NetworkService?
 }

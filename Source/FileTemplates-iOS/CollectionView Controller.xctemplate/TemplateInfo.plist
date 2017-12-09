@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>XCode-DI Collection View Controller</string>
 	<key>SortOrder</key>
-	<string>0</string>
+	<string>2</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
