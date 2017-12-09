@@ -217,24 +217,6 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<key>SortOrder</key>
 			<integer>4</integer>
 		</dict>
-		<key>ViewModels/ViewModelDefinitions.swift</key>
-		<dict>
-			<key>Group</key>
-			<string>ViewModels</string>
-			<key>Path</key>
-			<string>Source/ViewModels/ViewModelDefinitions.swift</string>
-			<key>SortOrder</key>
-			<integer>4</integer>
-		</dict>
-		<key>Model</key>
-		<dict>
-			<key>Group</key>
-			<string>Model</string>
-			<key>Path</key>
-			<string>Source/Model</string>
-			<key>SortOrder</key>
-			<integer>5</integer>
-		</dict>
 		<key>Extensions/UIColor+Hex.swift</key>
 		<dict>
 			<key>Group</key>
@@ -245,7 +227,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<key>Path</key>
 			<string>Source/Extensions/UIColor+Hex.swift</string>
 			<key>SortOrder</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Extensions/UIView+Geometry.swift</key>
 		<dict>
@@ -257,7 +239,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<key>Path</key>
 			<string>Source/Extensions/UIView+Geometry.swift</string>
 			<key>SortOrder</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Extensions/DateFormatter+Extras.swift</key>
 		<dict>
@@ -266,7 +248,7 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<key>Path</key>
 			<string>Source/Extensions/DateFormatter+Extras.swift</string>
 			<key>SortOrder</key>
-			<integer>9</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Extensions/NSMutableAttributedString+PSD.swift</key>
 		<dict>
@@ -274,6 +256,24 @@ python $SCRIPT_LOC -o $PROJECT_DIR</string>
 			<string>Extensions</string>
 			<key>Path</key>
 			<string>Source/Extensions/NSMutableAttributedString+PSD.swift</string>
+			<key>SortOrder</key>
+			<integer>8</integer>
+		</dict>
+		<key>Model</key>
+		<dict>
+			<key>Group</key>
+			<string>Model</string>
+			<key>Path</key>
+			<string>Source/Model</string>
+			<key>SortOrder</key>
+			<integer>9</integer>
+		</dict>
+		<key>ViewModels/ViewModelDefinitions.swift</key>
+		<dict>
+			<key>Group</key>
+			<string>ViewModels</string>
+			<key>Path</key>
+			<string>Source/ViewModels/ViewModelDefinitions.swift</string>
 			<key>SortOrder</key>
 			<integer>10</integer>
 		</dict>
