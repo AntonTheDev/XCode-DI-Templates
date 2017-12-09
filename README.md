@@ -53,7 +53,7 @@ sudo sh install.sh
 Once the install script finishes, Xcode should now contain the Xcode-DI template in as a default when creating a new project for iOS, or tvOS.
 
 <p align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/1-NewProjectIcon.png?raw=true" width="60%" height="60%" />
+<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/1-NewProjectIcon.png?raw=true" width="50%" height="50%" />
 </p>
 
 # Create Project
@@ -61,7 +61,7 @@ Once the install script finishes, Xcode should now contain the Xcode-DI template
 It's as simple as selecting the XCode-DI template, and following the usual process in creating a new project. Once created, the project will generate a pre-configured scaffolding as follows.
 
 <p align="center">
-<img align="center" src="./Documentation/1-Default-Scaffolding.png?raw=true" width="40%" height="40%" />
+<img align="center" src="./Documentation/1-Default-Scaffolding.png?raw=true" width="30%" height="30%" />
 </p>
 
 After the project has been created, the first step is to download, and install, the latest frameworks by navigating to the project's root directory, and running the following command:
@@ -96,7 +96,7 @@ Now that we have an sense for the scope of the scaffolding, let's begin by looki
 In the frameworks group includes Cartfile used by the project. When adding new frameworks, remember to update the build time script in the project's build target to include it :)
 
 <p align="center">
-<img align="center"  src="./Documentation/2-Default Frameworks.png?raw=true" width="40%" height="40%"/>
+<img align="center"  src="./Documentation/2-Default Frameworks.png?raw=true" width="30%" height="30%"/>
 </p>
 
 The following frameworks are installed accordingly:
@@ -162,7 +162,7 @@ Now lets define a new **Service** from the templates, to see what it generates. 
 Click on File > New > File... and selected the Service Template.
 
 <p align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/3-New-Service.png?raw=true" />
+<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/3-New-Service.png?raw=true" width="50%" height="50%" />
 </p>
 
 **AccountService.swift** will be generated, with an implementation and **TestAccountService.swift**, one for production purposes, and one for test purposes. But First let's observe the **AccountService.swift** file below to see has been included within.
