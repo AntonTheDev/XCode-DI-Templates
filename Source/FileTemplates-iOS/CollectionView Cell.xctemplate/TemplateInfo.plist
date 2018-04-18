@@ -15,7 +15,7 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>File</string>
+	<string>CollectionViewCell</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Platforms</key>

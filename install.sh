@@ -19,10 +19,24 @@ project_template_array=(
 "XCode-DI.xctemplate"
 "XCode-DI-Base.xctemplate")
 
-file_template_array=(
+ios_file_template_array=(
 "View Controller.xctemplate"
 "View.xctemplate"
-"CollectionView Controller.xctemplate"
+"Collection ViewController.xctemplate"
+"CollectionView Cell.xctemplate"
+"Video ViewController.xctemplate"
+"Service.xctemplate"
+"Network Service.xctemplate"
+"Transitioning Container VC.xctemplate"
+"Transitioning Context.xctemplate"
+"Transitioning Animator.xctemplate"
+"Vertical Paging FlowLayout.xctemplate"
+"Horizontal Paging FlowLayout.xctemplate")
+
+tvos_file_template_array=(
+"View Controller.xctemplate"
+"View.xctemplate"
+"Collection ViewController.xctemplate"
 "CollectionView Cell.xctemplate"
 "Video ViewController.xctemplate"
 "Service.xctemplate"
@@ -72,7 +86,7 @@ done
 echo ""
 echo "INSTALLING iOS File Templates: "
 
-for file_template in "${file_template_array[@]}"
+for file_template in "${ios_file_template_array[@]}"
 do
 
 if [ -d "$IOS_FILE_TEMPLATE_DIR/XCode-DI" ]
@@ -93,7 +107,7 @@ done
 echo ""
 echo "INSTALLING TVOS File Templates: "
 
-for file_template in "${file_template_array[@]}"
+for file_template in "${tvos_file_template_array[@]}"
 do
 
 if [ -d "$TVOS_FILE_TEMPLATE_DIR/XCode-DI" ]

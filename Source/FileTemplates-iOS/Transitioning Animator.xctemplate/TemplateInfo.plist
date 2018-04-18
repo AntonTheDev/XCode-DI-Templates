@@ -19,7 +19,7 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>File</string>
+	<string>TransitioningAnimator</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 </dict>

@@ -24,10 +24,10 @@ XCode-DI provides a solid starting point for a new project by providing some up 
 * Networking Layer via Alamofire
 * UI BaseLayer w/ Default Workflow, inherited by templates
 * XCode Snippets with Auto-Completion of lazy views
-* Useful Extensions Included:
-    * Convert Photoshop Values to NSAttributedString
-    * Initialize UIColor with Hex values
-    * UIView Geometry Helpers
+* Included Extensions:
+    * Photoshop Values -> NSAttributedString
+    * Hex Values -> UIColor
+    * UIView Geometry
 
 <br />
 
@@ -102,7 +102,7 @@ In the frameworks group includes Cartfile used by the project. When adding new f
 The following frameworks are installed accordingly:
 
 * Alamofire (3.3.0)
-* AlamofireImage(4.5.1)
+* AlamofireImage(3.5.1)
 * Swinject (2.1.1)
 * JSONModelKit (1.0.0)
 * FlightAnimator (0.9.9)
@@ -162,7 +162,7 @@ Now lets define a new **Service** from the templates, to see what it generates. 
 Click on File > New > File... and selected the Service Template.
 
 <p align="center">
-<img align="center"  src="https://github.com/AntonTheDev/XCode-DI-Templates/blob/master/Documentation/3-New-Service.png?raw=true" width="50%" height="50%" />
+<img align="center"  src="/Documentation/file_templates.png?raw=true" width="50%" height="50%" />
 </p>
 
 **AccountService.swift** will be generated, with an implementation and **TestAccountService.swift**, one for production purposes, and one for test purposes. But First let's observe the **AccountService.swift** file below to see has been included within.
@@ -286,15 +286,21 @@ More Documentation Coming Soon, here are some templates to checkout in the mean 
     * Pre-Configured method overrides
 * **Collection ViewController**
     * Extends BaseViewController included in the DI Template
-    * Bootstraps CollectionView Delegate/DataSource methods
+    * Bootstraps CollectionView Delegate / DataSource methods
 * **CollectionViewCell**
     * Extends BaseCollectionViewCell included in the DI Template
     * Pre-Configured method overrides
 * **Transitioning Container ViewController**
-    * Container ViewController
+    * Container View Controller
     * Pre-Configured for UIViewControllerAnimatedTransitioning
 * **Transitioning Animator**
     * Pre-Configured UIViewControllerAnimatedTransitioning instance
 * **Video ViewController**
     * Extends BaseViewController included in the DI Template
     * Pre-Configured to play single video file
+* **Vertical Paging Flow Layout (iOS only)**
+	* Vertically Paging Flow Layout
+	* Supports Multiple Sections
+* **Horizontal Paging Flow Layout (iOS only)**
+	* Horizontally Paging Flow Layout
+	* Supports Multiple Sections

@@ -10,11 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var button : UIButton = {
-        let image = UIButton(type: .custom)
-        image.backgroundColor = &lt;# UIColor #&gt;
-        image.alpha = 0.8
-        image.contentMode = .scaleAspectFill
-        return image
+        let button = UIButton(type: .custom)
+        button.backgroundColor = &lt;# UIColor #&gt;
+        return button
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>zbutton</string>

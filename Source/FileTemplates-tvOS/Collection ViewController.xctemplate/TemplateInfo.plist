@@ -5,22 +5,22 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>XCode-DI Transitioning Animator</string>
+	<string>XCode-DI Collection View Controller</string>
 	<key>Summary</key>
-	<string>XCode-DI Transitioning Animator</string>
+	<string>XCode-DI Collection View Controller</string>
 	<key>SortOrder</key>
-	<string>10</string>
-	<key>Platforms</key>
-	<array>
-		<string>com.apple.platform.appletvos</string>
-	</array>
+	<string>2</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>TransitioningAnimator</string>
+	<string>CollectionViewController</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.appletvos</string>
+	</array>
 </dict>
 </plist>

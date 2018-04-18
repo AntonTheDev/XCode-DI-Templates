@@ -5,22 +5,22 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>XCode-DI Collection View Controller</string>
+	<string>XCode-DI Collection View Paged Flow Layout</string>
 	<key>Summary</key>
-	<string>XCode-DI Collection View Controller</string>
+	<string>XCode-DI Collection View Paged Flow Layout</string>
 	<key>SortOrder</key>
-	<string>2</string>
+	<string>7</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>File</string>
+	<string>PagingFlowLayout</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Platforms</key>
 	<array>
-		<string>com.apple.platform.appletvos</string>
+		<string>com.apple.platform.iphoneos</string>
 	</array>
 </dict>
 </plist>

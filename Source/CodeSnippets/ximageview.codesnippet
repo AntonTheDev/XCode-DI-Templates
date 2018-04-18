@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var imageView : UIImageView = {
-        let image: UIImageView = UIImageView(image : UIImage(named : &lt;# imageName #&gt;))
-        image.contentMode = .scaleAspectFill
-        return image
+        let imageview = UIImageView(image : UIImage(named : &lt;# imageName #&gt;))
+        imageview.contentMode = .scaleAspectFill
+        return imageview
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>zimageview</string>
