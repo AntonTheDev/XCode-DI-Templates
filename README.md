@@ -298,9 +298,9 @@ More Documentation Coming Soon, here are some templates to checkout in the mean 
 * **Video ViewController**
     * Extends BaseViewController included in the DI Template
     * Pre-Configured to play single video file
-* **Vertical Paging Flow Layout (iOS only)**
+* **(iOS only) Vertical Paging Flow Layout**
 	* Vertically Paging Flow Layout
 	* Supports Multiple Sections
-* **Horizontal Paging Flow Layout (iOS only)**
+* **(iOS only) Horizontal Paging Flow Layout (iOS only)**
 	* Horizontally Paging Flow Layout
 	* Supports Multiple Sections
